@@ -8,7 +8,9 @@
   font-optical-sizing: auto;
 }
 
-/* ========= Common CSS Start ========= */
+/* ======================== 
+    Common CSS Start
+=========================*/
 
 a{
     text-decoration: none;
@@ -21,8 +23,11 @@ a{
     font-weight: bold;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
-/* ========= Common CSS End ========= */
+/* =======================
+    Common CSS End 
+=========================*/
 .logo h2{
     font-size: 45px;
     font-weight: bold;
@@ -35,6 +40,9 @@ a{
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url(../images/developer.png) , url(../images/header_bg.png), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 
 /* ==== Nav-bar Start ==== */
@@ -63,3 +71,44 @@ nav .menu a{
 
 
 /* ==== Nav-bar End ==== */
+
+/* ====== banner Start ========*/
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content{
+    max-width: 585px;
+}
+
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 5px;
+    color:#474747;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+/* ====== banner end =======*/
